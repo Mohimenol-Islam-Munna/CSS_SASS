@@ -1,6 +1,51 @@
+/* ---------------------------------- SASS NOTE -----------------------------------  */
+
+/* -------------- Sass variable -----------------  */
+/* Declare */
+/* $variable_name: value  */
+/* Use variable  */
+/* css_property: $variable_name */
+
+/* declare variable  */
+$primaryColor: salmon;
+$sectionPadding: 20px 0px;
+$sectionMargin: 20px 0px;
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
 .title {
   text-align: center;
-  color: salmon;
+  color: $primaryColor;
   background-color: blueviolet;
-  padding: 20px 0px;
+  padding: $sectionPadding;
+}
+
+// --------------------- Nested Style in SASS ---------------------
+/* menu  */
+.menu {
+  background-color: cyan;
+  padding: $sectionPadding;
+  margin: $sectionMargin;
+
+  ul {
+    list-style-type: none;
+    text-align: center;
+
+    li {
+      border: 1px solid gray;
+      width: 28%;
+      padding: 10px;
+      display: inline-block;
+      text-align: center;
+      margin: 0px 10px;
+
+      a {
+        text-decoration: none;
+      }
+    }
+  }
 }

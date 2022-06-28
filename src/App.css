@@ -1,6 +1,41 @@
+/* ---------------------------------- SASS NOTE -----------------------------------  */
+/* -------------- Sass variable -----------------  */
+/* Declare */
+/* $variable_name: value  */
+/* Use variable  */
+/* css_property: $variable_name */
+/* declare variable  */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
 .title {
   text-align: center;
   color: salmon;
   background-color: blueviolet;
   padding: 20px 0px;
-} /*# sourceMappingURL=App.css.map */
+}
+
+/* menu  */
+.menu {
+  background-color: cyan;
+  padding: 20px 0px;
+  margin: 20px 0px;
+}
+.menu ul {
+  list-style-type: none;
+  text-align: center;
+}
+.menu ul li {
+  border: 1px solid gray;
+  width: 28%;
+  padding: 10px;
+  display: inline-block;
+  text-align: center;
+  margin: 0px 10px;
+}
+.menu ul li a {
+  text-decoration: none;
+}/*# sourceMappingURL=App.css.map */
