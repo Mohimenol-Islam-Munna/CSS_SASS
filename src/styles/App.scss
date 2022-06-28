@@ -117,3 +117,23 @@
   background-color: blueviolet;
   padding: $sectionPadding;
 }
+
+// loop
+
+.loop_container {
+  width: 85%;
+  padding: 20px 0px;
+  margin: 20px auto;
+  border: 1px solid salmon;
+  background-color: blueviolet;
+  border-radius: 30px;
+
+  @for $i from 1 through 3 {
+    .loop_item_#{$i} {
+      width: ((100% / 6) * $i);
+      border: 1px solid palegreen;
+      margin-top: 15px;
+      display: inline-block;
+    }
+  }
+}

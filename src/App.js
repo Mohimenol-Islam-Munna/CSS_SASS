@@ -40,6 +40,12 @@ const App = () => {
           Button Two
         </button>
       </div>
+
+      <div className="loop_container">
+        <div className="loop_item_1">div 1</div>
+        <div className="loop_item_2">div 2</div>
+        <div className="loop_item_3"> div 3</div>
+      </div>
     </div>
   );
 };

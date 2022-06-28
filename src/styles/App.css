@@ -79,4 +79,31 @@
   color: yellow;
   background-color: blueviolet;
   padding: 20px 10px;
+}
+
+.loop_container {
+  width: 85%;
+  padding: 20px 0px;
+  margin: 20px auto;
+  border: 1px solid salmon;
+  background-color: blueviolet;
+  border-radius: 30px;
+}
+.loop_container .loop_item_1 {
+  width: 16.6666666667%;
+  border: 1px solid palegreen;
+  margin-top: 15px;
+  display: inline-block;
+}
+.loop_container .loop_item_2 {
+  width: 33.3333333333%;
+  border: 1px solid palegreen;
+  margin-top: 15px;
+  display: inline-block;
+}
+.loop_container .loop_item_3 {
+  width: 50%;
+  border: 1px solid palegreen;
+  margin-top: 15px;
+  display: inline-block;
 }/*# sourceMappingURL=App.css.map */
