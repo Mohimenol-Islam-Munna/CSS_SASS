@@ -56,4 +56,26 @@
   border: 1px solid salmon;
   border-radius: 20px;
   background-color: blueviolet;
+}
+
+.btn, .btn_two, .btn_one {
+  padding: 10px 20px;
+  text-align: center;
+  color: white;
+  margin-right: 10px;
+  border: none;
+  border-radius: 30px;
+}
+
+.btn_container {
+  width: 85%;
+  margin: auto;
+}
+
+.btn_one {
+  background-color: blueviolet;
+}
+
+.btn_two {
+  background-color: greenyellow;
 }/*# sourceMappingURL=App.css.map */

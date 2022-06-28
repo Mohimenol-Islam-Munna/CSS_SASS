@@ -30,6 +30,16 @@ const App = () => {
           incidunt facere temporibus.
         </p>
       </div>
+
+      {/* buttons  */}
+      <div className="btn_container">
+        <button type="button" className="btn_one">
+          Button One
+        </button>
+        <button type="button" className="btn_two">
+          Button Two
+        </button>
+      </div>
     </div>
   );
 };

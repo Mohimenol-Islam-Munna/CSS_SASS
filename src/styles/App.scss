@@ -1,5 +1,4 @@
 /* ---------------------------------- SASS NOTE -----------------------------------  */
-
 // imports in sass
 @import "./sass_common_module/reset";
 @import "./sass_common_module/variables";
@@ -74,4 +73,32 @@
 
 .paragraphContainer {
   @include paragraphContainerMixin(20px, 20px, auto, blueviolet);
+}
+
+// inheritance
+// By inheritance we can apply the style of one selector (id, class etc) to another
+
+.btn {
+  padding: 10px 20px;
+  text-align: center;
+  color: white;
+  margin-right: 10px;
+  border: none;
+  border-radius: 30px;
+}
+
+.btn_container {
+  width: 85%;
+  margin: auto;
+}
+
+// inherite the style of .btn selector
+.btn_one {
+  @extend .btn;
+  background-color: blueviolet;
+}
+
+.btn_two {
+  @extend .btn;
+  background-color: greenyellow;
 }
