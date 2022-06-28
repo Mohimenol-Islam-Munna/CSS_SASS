@@ -4,7 +4,7 @@ const App = () => {
   return (
     <div>
       {/* title  */}
-      <h2 className="title">CSS SASS WITH REACT</h2>
+      <h2 className="title1">CSS SASS WITH REACT</h2>
 
       {/* menu  */}
       <div className="menu">

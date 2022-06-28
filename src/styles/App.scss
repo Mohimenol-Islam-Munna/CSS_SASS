@@ -3,13 +3,6 @@
 @import "./sass_common_module/reset";
 @import "./sass_common_module/variables";
 
-.title {
-  text-align: center;
-  color: $primaryColor;
-  background-color: blueviolet;
-  padding: $sectionPadding;
-}
-
 // --------------------- Nested Style in SASS ---------------------
 /* menu  */
 .menu {
@@ -101,4 +94,26 @@
 .btn_two {
   @extend .btn;
   background-color: greenyellow;
+}
+
+// conditional statement
+
+@mixin titleMixin($type) {
+  @if $type == large {
+    font-size: 24px;
+  } @else if $type == medium {
+    font-size: 20px;
+  } @else if $type == small {
+    font-size: 16px;
+  } @else {
+    font-size: 12px;
+  }
+}
+
+.title1 {
+  @include titleMixin(large);
+  text-align: center;
+  color: $primaryColor;
+  background-color: blueviolet;
+  padding: $sectionPadding;
 }

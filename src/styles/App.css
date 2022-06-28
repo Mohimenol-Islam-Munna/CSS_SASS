@@ -11,13 +11,6 @@
 /* Use variable  */
 /* css_property: $variable_name */
 /* declare variable  */
-.title {
-  text-align: center;
-  color: yellow;
-  background-color: blueviolet;
-  padding: 20px 10px;
-}
-
 /* menu  */
 .menu {
   background-color: cyan;
@@ -78,4 +71,12 @@
 
 .btn_two {
   background-color: greenyellow;
+}
+
+.title1 {
+  font-size: 24px;
+  text-align: center;
+  color: yellow;
+  background-color: blueviolet;
+  padding: 20px 10px;
 }/*# sourceMappingURL=App.css.map */
