@@ -22,7 +22,7 @@ const App = () => {
       </div>
 
       {/* paragraph  */}
-      <div>
+      <div className="paragraphContainer">
         <p className="paragraph">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
           doloremque ratione quaerat, expedita laboriosam id quibusdam. Modi,

@@ -49,7 +49,7 @@
 // @include mixin_name
 
 // create mixin
-@mixin paragraphStyles {
+@mixin paragraphMixin {
   width: 90%;
   background-color: lightgray;
   font-size: 14px;
@@ -59,5 +59,19 @@
 }
 
 .paragraph {
-  @include paragraphStyles;
+  @include paragraphMixin;
+}
+
+// mixin with parameter
+@mixin paragraphContainerMixin($padding, $marginY, $marginX, $bgColor) {
+  width: 85%;
+  padding: $padding;
+  margin: $marginY $marginX;
+  border: 1px solid salmon;
+  border-radius: 20px;
+  background-color: $bgColor;
+}
+
+.paragraphContainer {
+  @include paragraphContainerMixin(20px, 20px, auto, blueviolet);
 }
