@@ -1,5 +1,8 @@
 /* ---------------------------------- SASS NOTE -----------------------------------  */
 
+// imports in sass
+@import "./sass_common_module/reset";
+
 /* -------------- Sass variable -----------------  */
 /* Declare */
 /* $variable_name: value  */
@@ -10,12 +13,6 @@
 $primaryColor: salmon;
 $sectionPadding: 20px 0px;
 $sectionMargin: 20px 0px;
-
-* {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-}
 
 .title {
   text-align: center;

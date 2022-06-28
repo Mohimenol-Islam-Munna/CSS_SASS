@@ -1,16 +1,16 @@
 /* ---------------------------------- SASS NOTE -----------------------------------  */
-/* -------------- Sass variable -----------------  */
-/* Declare */
-/* $variable_name: value  */
-/* Use variable  */
-/* css_property: $variable_name */
-/* declare variable  */
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
 }
 
+/* -------------- Sass variable -----------------  */
+/* Declare */
+/* $variable_name: value  */
+/* Use variable  */
+/* css_property: $variable_name */
+/* declare variable  */
 .title {
   text-align: center;
   color: salmon;
