@@ -13,16 +13,16 @@
 /* declare variable  */
 .title {
   text-align: center;
-  color: salmon;
+  color: yellow;
   background-color: blueviolet;
-  padding: 20px 0px;
+  padding: 20px 10px;
 }
 
 /* menu  */
 .menu {
   background-color: cyan;
-  padding: 20px 0px;
-  margin: 20px 0px;
+  padding: 20px 10px;
+  margin: 20px auto;
 }
 .menu ul {
   list-style-type: none;
@@ -38,4 +38,13 @@
 }
 .menu ul li a {
   text-decoration: none;
+}
+
+.paragraph {
+  width: 90%;
+  background-color: lightgray;
+  font-size: 14px;
+  color: black;
+  padding: 20px 10px;
+  margin: 20px auto;
 }/*# sourceMappingURL=App.css.map */

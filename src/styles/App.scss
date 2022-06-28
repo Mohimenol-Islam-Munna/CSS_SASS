@@ -2,17 +2,7 @@
 
 // imports in sass
 @import "./sass_common_module/reset";
-
-/* -------------- Sass variable -----------------  */
-/* Declare */
-/* $variable_name: value  */
-/* Use variable  */
-/* css_property: $variable_name */
-
-/* declare variable  */
-$primaryColor: salmon;
-$sectionPadding: 20px 0px;
-$sectionMargin: 20px 0px;
+@import "./sass_common_module/variables";
 
 .title {
   text-align: center;
@@ -45,4 +35,29 @@ $sectionMargin: 20px 0px;
       }
     }
   }
+}
+
+// --------------------- @mixin and @includ in SASS ---------------------
+// mixin contain multiple css property and can be used in anywhere.
+
+// create mixin
+// @mixin mixin_name{
+//   -----
+// }
+
+// called mixin
+// @include mixin_name
+
+// create mixin
+@mixin paragraphStyles {
+  width: 90%;
+  background-color: lightgray;
+  font-size: 14px;
+  color: black;
+  padding: $sectionPadding;
+  margin: $sectionMargin;
+}
+
+.paragraph {
+  @include paragraphStyles;
 }
