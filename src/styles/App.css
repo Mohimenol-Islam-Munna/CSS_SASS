@@ -106,4 +106,85 @@
   border: 1px solid palegreen;
   margin-top: 15px;
   display: inline-block;
+}
+
+.each_container {
+  width: 85%;
+  padding: 20px 0px;
+  margin: 20px auto;
+  border: 1px solid salmon;
+  background-color: blueviolet;
+  border-radius: 30px;
+}
+
+.red {
+  display: inline-block;
+  background-color: red;
+  border: 1px solid black;
+  width: 33%;
+  padding: 20px;
+}
+
+.red {
+  display: inline-block;
+  background-color: red;
+  border: 1px solid black;
+  width: 33%;
+  padding: 20px;
+}
+
+.red {
+  display: inline-block;
+  background-color: red;
+  border: 1px solid black;
+  width: 33%;
+  padding: 20px;
+}
+
+.green {
+  display: inline-block;
+  background-color: green;
+  border: 1px solid black;
+  width: 33%;
+  padding: 20px;
+}
+
+.green {
+  display: inline-block;
+  background-color: green;
+  border: 1px solid black;
+  width: 33%;
+  padding: 20px;
+}
+
+.green {
+  display: inline-block;
+  background-color: green;
+  border: 1px solid black;
+  width: 33%;
+  padding: 20px;
+}
+
+.blue {
+  display: inline-block;
+  background-color: blue;
+  border: 1px solid black;
+  width: 33%;
+  padding: 20px;
+}
+
+.blue {
+  display: inline-block;
+  background-color: blue;
+  border: 1px solid black;
+  width: 33%;
+  padding: 20px;
+}
+
+.blue {
+  display: inline-block;
+  background-color: blue;
+  border: 1px solid black;
+  width: 33%;
+  padding: 20px;
 }/*# sourceMappingURL=App.css.map */
