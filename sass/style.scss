@@ -3,21 +3,25 @@
 // $variable_name: value;
 
 $defaultPadding: 0px;
+$sectionPadding: 20px;
+
 $defaultMargin: 0px;
+$sectionMargin: 20px;
 
 $primaryColor: palegreen;
 $secondaryColor: cyan;
 
 $primaryBgColor: #f5f5f5;
 $secondaryBgColor: #ffffff;
+$extraBgColor: blueviolet;
 
 $primaryTextColor: #000000;
 $secondaryTextColor: #ffffff;
+$extraTextColor: salmon;
 
 $primaryFontSize: 16px;
 $secondaryFontSize: 14px;
 $smallFontSize: 12px;
-
 // ----------------- end variable -----------------
 
 * {
@@ -30,3 +34,27 @@ h2 {
   text-align: center;
   text-transform: uppercase;
 }
+
+//  ----------- Nested style with SASS  -------------
+nav {
+  background-color: $extraBgColor;
+  padding: $sectionPadding;
+  margin: $sectionMargin;
+
+  ul {
+    list-style-type: none;
+
+    li {
+      padding: 10px;
+
+      a {
+        color: $extraTextColor;
+        text-decoration: none;
+        border: 1px solid salmon;
+        padding: 5px 10px;
+      }
+    }
+  }
+}
+
+//  ------------- End Nested Style  -----------------

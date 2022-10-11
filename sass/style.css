@@ -7,4 +7,22 @@ h2 {
   color: palegreen;
   text-align: center;
   text-transform: uppercase;
+}
+
+nav {
+  background-color: blueviolet;
+  padding: 20px;
+  margin: 20px;
+}
+nav ul {
+  list-style-type: none;
+}
+nav ul li {
+  padding: 10px;
+}
+nav ul li a {
+  color: salmon;
+  text-decoration: none;
+  border: 1px solid salmon;
+  padding: 5px 10px;
 }/*# sourceMappingURL=style.css.map */
