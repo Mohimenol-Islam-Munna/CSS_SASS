@@ -1,9 +1,32 @@
+// ------------------ variables -------------------
+// syntax
+// $variable_name: value;
+
+$defaultPadding: 0px;
+$defaultMargin: 0px;
+
+$primaryColor: palegreen;
+$secondaryColor: cyan;
+
+$primaryBgColor: #f5f5f5;
+$secondaryBgColor: #ffffff;
+
+$primaryTextColor: #000000;
+$secondaryTextColor: #ffffff;
+
+$primaryFontSize: 16px;
+$secondaryFontSize: 14px;
+$smallFontSize: 12px;
+
+// ----------------- end variable -----------------
+
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: $defaultMargin;
+  padding: $defaultPadding;
 }
 
 h2 {
+  color: $primaryColor;
   text-align: center;
   text-transform: uppercase;
 }
