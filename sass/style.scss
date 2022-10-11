@@ -1,45 +1,20 @@
-// ------------------ variables -------------------
-// syntax
-// $variable_name: value;
+// import partials
+// Note :: partials can import by using @forward and @use keywords. if directly use somthing(like variables) from partial then import partial by @use keyword otherwise use @forward keyword.
 
-$defaultPadding: 0px;
-$sectionPadding: 20px;
-
-$defaultMargin: 0px;
-$sectionMargin: 20px;
-
-$primaryColor: palegreen;
-$secondaryColor: cyan;
-
-$primaryBgColor: #f5f5f5;
-$secondaryBgColor: #ffffff;
-$extraBgColor: blueviolet;
-
-$primaryTextColor: #000000;
-$secondaryTextColor: #ffffff;
-$extraTextColor: salmon;
-
-$primaryFontSize: 16px;
-$secondaryFontSize: 14px;
-$smallFontSize: 12px;
-// ----------------- end variable -----------------
-
-* {
-  margin: $defaultMargin;
-  padding: $defaultPadding;
-}
+@forward "./shared/partials/index";
+@use "./shared/utils/index" as var;
 
 h2 {
-  color: $primaryColor;
+  color: var.$extraTextColor;
   text-align: center;
   text-transform: uppercase;
 }
 
-//  ----------- Nested style with SASS  -------------
+//  ----------- Nested Style With SASS  -------------
 nav {
-  background-color: $extraBgColor;
-  padding: $sectionPadding;
-  margin: $sectionMargin;
+  background-color: var.$extraBgColor;
+  padding: var.$sectionPadding;
+  margin: var.$sectionMargin;
 
   ul {
     list-style-type: none;
@@ -48,7 +23,7 @@ nav {
       padding: 10px;
 
       a {
-        color: $extraTextColor;
+        color: var.$extraTextColor;
         text-decoration: none;
         border: 1px solid salmon;
         padding: 5px 10px;
@@ -56,5 +31,4 @@ nav {
     }
   }
 }
-
 //  ------------- End Nested Style  -----------------
